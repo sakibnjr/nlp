@@ -5,7 +5,7 @@ const App = () => {
   const URL = import.meta.env.VITE_PRESENTATION_LINK;
   return (
     <div className="w-screen h-screen bg-black">
-      <div className="flex justify-center relative top-1/2">
+      <div className="flex justify-center relative top-1/4 lg:top-1/2">
         <a href={URL} className="z-30">
           <ShinyText
             text="Go live"
